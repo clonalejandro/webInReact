@@ -1,0 +1,15 @@
+{
+  "short_name": "Home clonalejandro",
+  "name": "clonalejandro's web",
+  "icons": [
+    {
+      "src": "https://es.gravatar.com/userimage/95988980/f3fb5b089aa16571ff40cbcc7657da35.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
