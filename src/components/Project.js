@@ -46,7 +46,7 @@ class Project extends Component {
 
         return (
             <div className="project rcol-md-6 rcol-lg-4 ui">
-                <a className="project-img ui" href={url} style={style}/>
+                <a className="project-img ui lazy-load" data-src={image} href={url} style={style}/>
                 <div className="project-info" style={css}>
                     <a href={url}>{title}</a>
                     <time className="date" datetime={time}>{time}</time>

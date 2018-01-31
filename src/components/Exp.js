@@ -53,7 +53,7 @@ class Exp extends Component {
                     <div className="alll">
                         <h3 className="ntitler">
                             <a href="./lab">
-                                <img src="recursos/svg/velociraptor.svg" /> Last experiments
+                                <img className="lazy-load" src="recursos/svg/velociraptor.svg" /> Last experiments
                             </a>
                         </h3>
 

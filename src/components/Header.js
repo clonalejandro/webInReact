@@ -40,7 +40,7 @@ class Header extends Component {
                 <Navbar itemActive={props.itemActive} />
                 <div className="ui text container">
                     <h1 className="ui icon header">
-                        <img src="https://avatars3.githubusercontent.com/u/20615143?v=3&s=460" rel="icon" />
+                        <img className="lazy-load" src="https://avatars3.githubusercontent.com/u/20615143?v=3&s=460" rel="icon" />
                         <div className="content">
                             <span className="titler" >Backend & Java Developer</span>
                             <br/>

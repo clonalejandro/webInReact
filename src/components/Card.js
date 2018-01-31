@@ -30,7 +30,7 @@ class Card extends Component {
 
     card(props){
         return (
-                    <div class="rcol-md-4">
+                    <div class="rcol-md-4 card-container">
                         <div class="ui raised card">
                             <div class="content head">
                                 <div class="header"/>

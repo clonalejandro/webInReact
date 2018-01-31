@@ -38,8 +38,8 @@ class Post extends Component {
 
         switch (type){
             default:
-                obj[0] = <div className="item">
-                            <img className="ui avatar image" src={avatar} />
+                obj[0] = <div className="post item">
+                            <img className="ui avatar image lazy-load" src={avatar} />
                                 <div className="content">
                                     <a className="header">{title}</a>
                                     <div className="description">
@@ -49,8 +49,8 @@ class Post extends Component {
                             </div>;
                 break;
             case "repo":
-                obj[0] = <div className="item">
-                    <img className="ui avatar image" src={avatar} />
+                obj[0] = <div className="post item">
+                    <img className="ui avatar image lazy-load" src={avatar} />
                     <div className="content">
                         <a className="header">
                             {title} <span class="etiqueta etiqueta-rosa"><i className="icon github alternate"/> Repo</span>
@@ -62,8 +62,8 @@ class Post extends Component {
                 </div>;
                 break;
             case "news":
-                obj[0] = <div className="item">
-                    <img className="ui avatar image" src={avatar} />
+                obj[0] = <div className="post item">
+                    <img className="ui avatar image lazy-load" src={avatar} />
                     <div className="content">
                         <a className="header">
                             {title} <span class="etiqueta etiqueta-roja"><i className="icon newspaper"/> News</span>
@@ -75,8 +75,8 @@ class Post extends Component {
                 </div>;
                 break;
             case "offtopic":
-                obj[0] = <div className="item">
-                    <img className="ui avatar image" src={avatar} />
+                obj[0] = <div className="post item">
+                    <img className="ui avatar image lazy-load" src={avatar} />
                     <div className="content">
                         <a className="header">
                             {title} <span class="etiqueta etiqueta-roja"><i className="icon coffee"/> Offtopic</span>
