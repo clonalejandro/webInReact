@@ -62,13 +62,13 @@ class Sidebar extends Component {
                 <a className={portfolio}>
                     <i className="octicon octicon-file-media"/> Portfolio
                 </a>
-                <a className={blog}>
+                <a className={blog} href="https://blog.clonalejandro.me">
                     <i className="icon book left"/> Blog
                 </a>
                 <a className={lab}>
                     <i className="octicon octicon-octoface"/> Lab
                 </a>
-                <a className={contact}>
+                <a className={contact} href="mailto:contact@clonalejandro.me">
                     <i className="octicon octicon-mail"/> Contact
                 </a>
             </div>

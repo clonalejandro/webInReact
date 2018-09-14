@@ -65,11 +65,11 @@ class Navbar extends Component {
                         <div className="right item">
                             <a className={portfolio}><i className="octicon octicon-file-media"/> Portfolio</a>
 
-                            <a className={blog}><i className="icon book"/> Blog</a>
+                            <a className={blog} href="https://blog.clonalejandro.me"><i className="icon book"/> Blog</a>
 
                             <a className={lab}><i className="octicon octicon-octoface"/> Lab</a>
 
-                            <a className={contact}><i className="octicon octicon-mail"/> Contact</a>
+                            <a className={contact} href="mailto:contact@clonalejandro.me"><i className="octicon octicon-mail"/> Contact</a>
 
                             <a className="audio-toggle" onClick="caudio()"><i className="touch icon volume up"/></a>
                         </div>
