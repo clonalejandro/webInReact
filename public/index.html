@@ -111,6 +111,10 @@
   <script type="text/javascript" src="https://clonalejandro.github.io/cdn/primer/lib/app.js"></script>
   <script type="text/javascript" src="recursos/js/app.min.js"></script>
   <script>
+      $(document).ready(
+          $(".audio-toggle").click((caudio()))
+      );
+      
       const bg = [],
             loader = $(".lazy-load"),
             space = " ";

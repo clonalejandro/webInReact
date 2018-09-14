@@ -71,7 +71,7 @@ class Navbar extends Component {
 
                             <a className={contact} href="mailto:contact@clonalejandro.me"><i className="octicon octicon-mail"/> Contact</a>
 
-                            <a className="audio-toggle" onClick="caudio()"><i className="touch icon volume up"/></a>
+                            <a className="audio-toggle"><i className="touch icon volume up"/></a>
                         </div>
                     </div>
                 </div>
