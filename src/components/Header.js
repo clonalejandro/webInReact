@@ -42,7 +42,7 @@ class Header extends Component {
                     <h1 className="ui icon header">
                         <img className="lazy-load" src="https://avatars3.githubusercontent.com/u/20615143?v=3&s=460" rel="icon" />
                         <div className="content">
-                            <span className="titler" >Backend & Java Developer</span>
+                            <span className="titler" >Full Stack Developer</span>
                             <br/>
                         </div>
                     </h1>
